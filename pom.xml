@@ -4,7 +4,7 @@
   <groupId>Raj</groupId>
   <artifactId>web</artifactId>
   <packaging>war</packaging>
-  <version>1.0</version>
+  <version>2.0</version>
   <name>chandu Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -21,12 +21,12 @@
    <distributionManagement>
   <repository>
      <id>deployment</id>
-     <name>1.0</name>
+     <name>2.0</name>
      <url>http://192.168.178.131:9000/nexus-2.11.4-01/content/repositories/releases/</url>
   </repository>
   <snapshotRepository>
      <id>deployment</id>
-     <name>1.0-SNAPSHOT</name>
+     <name>2.0-SNAPSHOT</name>
      <url>http://192.168.178.131:9000/nexus-2.11.4-01/content/repositories/snapshots/</url>
   </snapshotRepository>
 </distributionManagement>
