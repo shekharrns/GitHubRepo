@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>sai</groupId>
-  <artifactId>chandu</artifactId>
+  <groupId>Raj</groupId>
+  <artifactId>web</artifactId>
   <packaging>war</packaging>
   <version>1.0</version>
   <name>chandu Maven Webapp</name>
@@ -16,18 +16,18 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>chandu</finalName>
+    <finalName>reddy</finalName>
   </build>
    <distributionManagement>
   <repository>
      <id>deployment</id>
      <name>1.0</name>
-     <url></url>
+     <url>http://192.168.178.131:9000/nexus-2.11.4-01/content/repositories/releases/</url>
   </repository>
   <snapshotRepository>
      <id>deployment</id>
      <name>1.0-SNAPSHOT</name>
-     <url></url>
+     <url>http://192.168.178.131:9000/nexus-2.11.4-01/content/repositories/snapshots/</url>
   </snapshotRepository>
 </distributionManagement>
 </project>
